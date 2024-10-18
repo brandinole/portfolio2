@@ -674,6 +674,19 @@ textarea {
     border-radius: 5px;
     font-weight: 600;
     color: #777; }
+
+    .resume-button {
+      display: flex;
+      flex-wrap: wrap; }
+      .resume-button {
+        padding: 1rem 2rem;
+        margin-bottom: 1.5rem;
+        margin-right: 1.5rem;
+        font-size: 1.6rem;
+        background: rgba(153, 153, 153, 0.2);
+        border-radius: 5px;
+        font-weight: 600;
+        color: #777; }
     
   
 
@@ -710,6 +723,11 @@ textarea {
 
     .skills__skill:hover {
       background-color: lightgray; 
+    }
+
+    .resume-button:hover {
+      background-color: #37445f;
+      color: white; 
     }
 
   li {
